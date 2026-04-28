@@ -29,4 +29,4 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           wranglerVersion: '4'
-          command: deploy _worker.js --name cmliutun --compatibility-date 2025-11-04 --keep-vars
+          command: deploy _worker.js --no-bundle --name cmliutun --compatibility-date 2025-11-04 --keep-vars
